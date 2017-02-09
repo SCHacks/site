@@ -1,0 +1,54 @@
+.red {
+  color: #e42d40 !important;
+}
+
+.bg-red {
+  background-color: #e42d40 !important;
+}
+
+.blue {
+  color: #3b67a8 !important;
+}
+
+.bg-blue {
+  background-color: #3b67a8 !important;
+}
+
+.grey {
+  color: #8492a6 !important;
+}
+
+.bg-grey {
+  background-color: #8492a6 !important;
+}
+
+.dark-grey {
+  color: #3c4858 !important;
+}
+
+.bg-dark-grey {
+  background-color: #3c4858 !important;
+}
+
+ol {
+  counter-reset: li;
+}
+ol li {
+  position: relative;
+}
+ol li:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  top: .5rem;
+  left: -1.5rem;
+  height: 1rem;
+  width: 1rem;
+  line-height: 1rem;
+  font-size: .5rem;
+  background-color: #8492a6;
+  color: #fff;
+  border-radius: 50%;
+  font-weight: 700;
+  text-align: center;
+}
