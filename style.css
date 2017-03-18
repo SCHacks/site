@@ -31,7 +31,7 @@ a {
 .list li:before {
   content: counter(li);
   counter-increment: li;
-  margin-right: 1em;
+  margin-right: .75em;
   display: inline-block;
   height: 2em;
   width: 2em;
@@ -49,10 +49,10 @@ a {
 }
 .list--workshops li {
   display: inline-block;
-  margin-bottom: 1em;
+  margin-bottom: .75em;
 }
 .list--workshops li:before {
-  font-size: .8rem;
+  font-size: 1rem;
 }
 .list--workshops a:first-child li:before {
   background-color: #28ce68 !important;
