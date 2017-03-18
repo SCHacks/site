@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet prefetch" href="https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css">
 <link rel="stylesheet" href="style.css">
-<main class="avenir mw6 center pa4">
+<main class="sans-serif mw6 center pa4">
   <header class="flex items-center mb4">
     <img src="https://schacks.github.io/icon.png" width="64" class="w2 w3-ns br-100">
     <div class="ml3 flex-auto">
@@ -25,18 +25,21 @@
     <a href="https://hackclub.com/" class="red fw6 no-underline">Hack Club</a>
     at State High.
   </p>
-  <p class="dark-grey mb0">
-    Our next meeting is:
-    <strong class="fw6">March 16, 2017</strong>
-  </p>
-  <p class="grey f6 mt2 mb3">
-    220N (Mrs. Bytheway's room), 3:30–5:00pm
-  </p>
-  <a
-    href="http://rmd.at/schacks"
-    class="f6 link br2 ph3 pv2 lh-title mb2 dib white bg-green">
-    Sign up for Remind
-  </a>
+  <div class="flex items-center flex-column flex-row-ns">
+    <div class="flex flex-column br3 ba b--red bw2 w3 h3 tc">
+      <span class="f6 lh-title bg-red white bb b--red bw1">March</span>
+      <span class="f3 lh-copy">23</span>
+    </div>
+    <div class="mt2 tc mt0-ns ml3-ns tl-ns">
+      <span class="dark-grey b">
+        Our next meeting
+        <a href="http://rmd.at/schacks" class="green i f6 fw4">
+          – want a reminder?
+        </a>
+      </span>
+      <span class="db mt1 f5 grey">220N (Mrs. Bytheway), 3:30–5:00pm</span>
+    </div>
+  </div>
   <h2 class="mt4 mb2 f3 fw6 red">Submit</h2>
   <form
     action="https://formspree.io/ljc14@scasd.org"
@@ -47,7 +50,7 @@
       <input
       type="email"
       name="email"
-      class="border-box dark-gray ba b--light-gray pv1 ph2 br2 w-100 avenir"
+      class="border-box dark-gray ba b--light-gray pv1 ph2 br2 w-100 sans-serif"
       placeholder="abc@scasd.org">
     </label>
     <label class="pl3-ns mb3 border-box">
@@ -55,50 +58,45 @@
       <input
         type="url"
         name="url"
-        class="border-box dark-gray ba b--light-gray pv1 ph2 br2 w-100 avenir"
+        class="border-box dark-gray ba b--light-gray pv1 ph2 br2 w-100 sans-serif"
         placeholder="abc.github.io">
     </label>
     <div class="pl3-ns mb3 border-box">
-      <input type="submit" value="Submit" class="input-reset f6 avenir br2 ph3 pv2 white bn bg-green">
+      <input type="submit" value="Submit" class="input-reset f6 sans-serif br2 ph3 pv2 white bn bg-blue">
     </div>
   </form>
-  <h2 class="mv3 f3 fw6 red">Meetings</h2>
-  <h3 class="mv0 f5 dark-grey fw6">2017-03-16</h3>
-  <ol class="list pl0 mt1 bt b--near-white">
-    <li class="pv2 bb b--near-white">
-      <a target="_blank" class="blue no-underline" href="https://workshops.hackclub.com/dodge/">Workshop 4</a>
-    </li>
-  </ol>
-  <h3 class="mv0 f5 dark-grey fw6">2017-03-02</h3>
-  <ol class="list pl0 mt1 bt b--near-white">
-    <li class="pv2 bb b--near-white">
-      <a target="_blank" class="blue no-underline" href="https://workshops.hackclub.com/geometric_pattern/">Workshop 3</a>
-    </li>
-  </ol>
-  <h3 class="mv0 f5 dark-grey fw6">2017-02-23</h3>
-  <ol class="list pl0 mt1 bt b--near-white">
-    <li class="pv2 bb b--near-white">
-      <a target="_blank" class="blue no-underline" href="https://workshops.hackclub.com/that_was_easy/">Workshop 2</a>
-    </li>
-  </ol>
-  <h3 class="mv0 f5 dark-grey fw6">2017-02-16</h3>
-  <ol class="list pl0 mt1 bt b--near-white">
-    <li class="pv2 bb b--near-white">
-      <a target="_blank" class="blue no-underline" href="https://workshops.hackclub.com/PREFACE.md">Preface</a>
-    </li>
-    <li class="pv2 bb b--near-white">
-      <a target="_blank" class="blue no-underline" href="https://workshops.hackclub.com/personal_website">Workshop 1</a>
-    </li>
-    <li class="pv2 bb b--near-white">
-      <a target="_blank" class="blue no-underline" href="https://new.hackclub.com/cloud9_setup">Sign up for Cloud9</a>
-    </li>
-    <li class="pv2 bb b--near-white">
-      <a target="_blank" class="blue no-underline" href="http://slack.hackclub.com">Join the Slack</a>
-    </li>
-    <li class="pv2 bb b--near-white">
-      <a target="_blank" class="blue no-underline" href="https://github.com/hackclub/hackclub/blob/master/CONDUCT.md">Code of Conduct</a>
-    </li>
-  </ol>
+  <h2 class="mv3 f3 fw6 red">Resources</h2>
+  <div class="flex-ns">
+    <section class="w-50-ns mr3-ns">
+      <h3 class="mv0 f5 dark-grey fw6 pb1 bb b--near-white">Workshops</h3>
+      <ol class="list list--workshops mt2">
+        <a target="_blank" href="https://workshops.hackclub.com/personal_website"><li></li></a>
+        <a target="_blank" href="https://workshops.hackclub.com/that_was_easy/"><li></li></a>
+        <a target="_blank" href="https://workshops.hackclub.com/geometric_pattern/"><li></li></a>
+        <a target="_blank" href="https://workshops.hackclub.com/dodge/"><li></li></a>
+        <a target="_blank" href="https://workshops.hackclub.com/platformer/"><li></li></a>
+        <a target="_blank" href="https://workshops.hackclub.com/collaborative_sketch/"><li></li></a>
+        <a target="_blank" href="https://workshops.hackclub.com/dashboard/"><li></li></a>
+      </ol>
+    </section>
+    <section class="w-50-ns bl-ns b--near-white pl3-ns">
+      <h3 class="mv0 f5 dark-grey fw6">Getting Started</h3>
+      <ol class="list list--links pl0 mt1 mb0 bt b--near-white">
+        <li class="pv2 bb b--near-white">
+          <a target="_blank" href="https://workshops.hackclub.com/PREFACE.md">Preface</a>
+        </li>
+        <li class="pv2 bb b--near-white">
+          <a target="_blank" href="https://new.hackclub.com/cloud9_setup">Sign up for Cloud9</a>
+        </li>
+        <li class="pv2 bb b--near-white">
+          <a target="_blank" href="http://slack.hackclub.com">Join the Slack</a>
+        </li>
+        <li class="pv2 bb b--near-white">
+          <a target="_blank" href="https://github.com/hackclub/hackclub/blob/master/CONDUCT.md">Code of Conduct</a>
+        </li>
+      </ol>
+    </section>
+  </div>
   <footer class="mt4 grey">
     <strong class="fw6">State High hacks.</strong>
     MIT licensed, 2017.
