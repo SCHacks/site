@@ -18,27 +18,30 @@
 <meta name="theme-color" content="#e42d40">
 <link rel="stylesheet prefetch" href="https://unpkg.com/tachyons@4.7.2/css/tachyons.min.css">
 <link rel="stylesheet" href="style.css">
-<main class="sans-serif mw6 center pa4">
-  <header class="flex items-center mb4">
+<main class="sans-serif mw6 center pv4 ph3">
+  <header class="flex items-center justify-center mb3">
     <div class="bg-red br-100 w2 w3-ns h2 h3-ns flex items-center justify-center">
       <img src="https://icon.now.sh/code/ffffff" class="w-50">
     </div>
-    <div class="ml3 flex-auto">
-      <h1 class="f1 f0-ns mv0 red">Hack Club</h1>
+    <div class="ml3">
+      <h1 class="f1 f0-ns mv0">
+        <a href="https://hackclub.com/" class="red">
+          Hack Club<small class="f4 v-top">↗</small>
+        </a>
+      </h1>
       <span class="f5 ttu tracked grey db">State High</span>
     </div>
   </header>
-  <p class="dark-grey lh-copy mb0">
-    Welcome! This is
-    <a href="https://hackclub.com/" class="red fw6">Hack Club</a>
-    at State High.
+  <p class="dark-grey lh-copy tc">
+    Come make epic apps, sites, and games—<br>pizza, friends, and fun included.
   </p>
-  <p class="dark-grey lh-copy mt1">
-    Come build your first website—no experience needed.
-    <br>
-    Pizza, friends, and fun.
-  </p>
-  <div class="mv4 flex items-center flex-column flex-row-ns">
+  <div class="mt4 bg-red white pa3 br2 br--top tc">
+    <p class="f3 mv0">☀️ Hack Club is done for the summer!</p>
+    <p class="mt1 mb0 f5 i">We'll be back in the fall.</p>
+  </div>
+  <div
+    class="mb4 bg-light-gray pa3 br2 br--bottom flex items-center flex-column flex-row-ns"
+    style="filter: grayscale(); opacity: .5;">
     <div class="flex flex-column br3 ba b--red bw2 w3 h3 tc">
       <span class="f6 lh-title bg-red white bb b--red bw1">June</span>
       <span class="f3 lh-copy">1</span>
@@ -74,9 +77,7 @@
         class="input-reset border-box dark-gray ba b--light-gray pv1 ph2 br2 w-100 sans-serif f6"
         placeholder="abc.tech">
     </label>
-    <div class="pl3-ns mb3 border-box">
-      <input type="submit" value="Submit" class="input-reset f6 sans-serif br2 pa2 white bn bg-blue">
-    </div>
+    <input type="submit" value="Submit" class="input-reset ml3-ns mb3 f6 sans-serif br2 pa2 white bn bg-blue">
   </form>
   <h2 class="mv3 f3 fw6 red">Links</h2>
   <div class="flex-ns">
