@@ -8,7 +8,6 @@ const Input = cxs('input')(reset, props => ({
   borderWidth: 1,
   color: 'inherit',
   padding: props.theme.space[2],
-  WebkitAppearance: 'none',
   lineHeight: '1.5',
   ':focus': {
     outline: 'none',
