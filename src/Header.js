@@ -11,7 +11,7 @@ import Calendar from './Calendar'
 import data from '../data'
 import colors from './colors'
 
-const Header = () =>
+const Header = () => (
   <Banner>
     <Logo size={72} fill={colors.red} />
     <Title>
@@ -24,10 +24,19 @@ const Header = () =>
     <Flex align="center" mt={4}>
       <Calendar month="Sept." day={11} />
       <Box ml={3}>
-        <Text bold>Next meeting</Text>
-        <Text color>220N, 3:30–5:00pm</Text>
+        <Text>
+          <strong>Next meeting</strong>
+          <Link
+            href="http://rmd.at/schacks"
+            target="_blank"
+            style={{ fontSize: 14, fontStyle: 'italic' }}
+            children={' — want a reminder?'}
+          />
+        </Text>
+        <Text>220N, 3:30–5:00pm</Text>
       </Box>
     </Flex>
   </Banner>
+)
 
 export default Header
