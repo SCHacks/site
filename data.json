@@ -1,0 +1,32 @@
+{
+  "name": "State High Hack Club",
+  "description": "Make apps, hang out, eat pizza.",
+  "url": "https://schacks.github.io",
+  "repo": "https://github.com/schacks/schacks.github.io",
+  "card": "https://schacks.github.io/card.png",
+  "workshops": [
+    { "slug": "personal_website", "name": "Personal website" },
+    { "slug": "that_was_easy", "name": "That was easy" },
+    { "slug": "geometric_pattern", "name": "Geometric pattern" },
+    { "slug": "dodge", "name": "Dodge" },
+    { "slug": "platformer", "name": "Platformer" },
+    { "slug": "collaborative_sketch", "name": "Collaborative sketch" },
+    { "slug": "dashboard", "name": "Dashboard" },
+    { "slug": "rails_notes", "name": "Rails Notes" }
+  ],
+  "start": [
+    {
+      "href": "https://workshops.hackclub.com/PREFACE.md",
+      "children": "1. Preface"
+    },
+    {
+      "href": "https://github.com/hackclub/hackclub/blob/master/CONDUCT.md",
+      "children": "2. Code of Conduct"
+    },
+    {
+      "href": "https://new.hackclub.com/cloud9_setup",
+      "children": "3. Cloud9"
+    },
+    { "href": "http://slack.hackclub.com/", "children": "4. Slack" }
+  ]
+}
