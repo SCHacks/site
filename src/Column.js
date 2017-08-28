@@ -9,9 +9,6 @@ const Column = cxs(Box)(props => ({
     width: 100 / 2 + '%'
   },
   [media[1]]: {
-    width: 100 / 3 + '%'
-  },
-  [media[2]]: {
     width: 100 / 4 + '%'
   }
 }))
