@@ -9,7 +9,7 @@ const colors = require('./src/colors')
 const App = require('./src/App').default
 
 const cx = cxs({
-  fontFamily: '"SF Mono", Menlo, monospace',
+  fontFamily: 'SFMono-Regular, Menlo, monospace',
   color: colors.black,
   lineHeight: '1.5'
 })
