@@ -22,7 +22,7 @@ const Header = () => (
       {data.description}
     </Text>
     <Flex align="center" mt={4}>
-      <Calendar month="Sept." day={11} />
+      <Calendar month="October" day={5} />
       <Box ml={3}>
         <Text>
           <strong>Next meeting</strong>
