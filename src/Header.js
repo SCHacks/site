@@ -11,6 +11,10 @@ import Calendar from './Calendar'
 import data from '../data'
 import colors from './colors'
 
+import cxs from 'cxs/component'
+import btn from './btn'
+const Button = cxs('a')(props => btn(props))
+
 const Header = () => (
   <Banner>
     <Logo size={72} fill={colors.red} />
@@ -20,6 +24,9 @@ const Header = () => (
     </Title>
     <Text f={3}>
       {data.description}
+    </Text>
+    <Text mt={3}>
+      <Button href="https://hackclub.com" children="Learn more" />
     </Text>
     <Flex align="center" mt={4}>
       <Calendar month="November" day={6} />

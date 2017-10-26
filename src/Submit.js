@@ -5,10 +5,12 @@ import Columns from './Columns'
 import Column from './Column'
 import Label from './Label'
 import Input from './Input'
-import SubmitButton from './SubmitButton'
-import cxs from 'cxs/component'
 
-const Submit = () =>
+import cxs from 'cxs/component'
+import btn from './btn'
+const Button = cxs('input')(props => btn(props))
+
+const Submit = () => (
   <section id="submit">
     <Bar />
     <Heading>Submit</Heading>
@@ -27,11 +29,12 @@ const Submit = () =>
           </Label>
         </Column>
         <Column style={{ alignSelf: 'flex-end' }}>
-          <SubmitButton type="submit" />
+          <Button type="submit" />
         </Column>
         <Column />
       </Columns>
     </form>
   </section>
+)
 
 export default Submit

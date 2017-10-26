@@ -19,6 +19,7 @@ const css = cxs.css()
 
 const template = ({ body, id, css }) => `<!DOCTYPE html>
 <title>${data.name}</title>
+<meta charset='UTF-8'>
 <meta name='twitter:card' content='summary_large_image'>
 <meta name='twitter:image' content='${data.card}'>
 <meta name='og:image' content='${data.card}'>
