@@ -13,14 +13,14 @@ const Background = cxs(Flex)(props => ({
   borderStyle: 'solid',
   borderWidth: 4,
   borderTopWidth: 2,
-  borderRadius: 8,
+  borderRadius: 12,
   lineHeight: '1.625'
 }))
 
 const Month = cxs(Box)(props => ({
   backgroundColor: props.theme('colors.red'),
   color: props.theme('colors.white'),
-  fontSize: 14,
+  fontSize: 16,
   fontWeight: 'bold'
 }))
 
@@ -28,14 +28,11 @@ const Day = cxs(Box)(props => ({
   fontSize: 32
 }))
 
-const Calendar = ({ month, day }) =>
+const Calendar = ({ month, day }) => (
   <Background>
-    <Month>
-      {month}
-    </Month>
-    <Day>
-      {day}
-    </Day>
+    <Month children={month} />
+    <Day children={day} />
   </Background>
+)
 
 export default Calendar
