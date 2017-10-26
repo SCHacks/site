@@ -1,9 +1,9 @@
 {
   "name": "State High Hack Club",
   "description": "Make apps, hang out, eat pizza.",
-  "url": "https://schacks.github.io",
+  "url": "https://schacks.tech",
   "repo": "https://github.com/schacks/schacks.github.io",
-  "card": "https://schacks.github.io/card.png",
+  "card": "https://schacks.tech/card.png",
   "workshops": [
     { "slug": "personal_website", "name": "Personal website" },
     { "slug": "that_was_easy", "name": "That was easy" },
