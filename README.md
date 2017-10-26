@@ -2,6 +2,6 @@
 
 Website for [Hack Club](https://hackclub.com) at State College Area High School.
 
-____
+___
 
 *MIT license.*
