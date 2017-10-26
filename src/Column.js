@@ -4,9 +4,14 @@ import media from './media'
 
 const Column = cxs(Box)(props => ({
   width: '100%',
-  padding: props.theme.space[3],
+  paddingLeft: props.theme.space[3],
+  paddingRight: props.theme.space[3],
+  paddingTop: props.theme.space[2],
+  paddingBottom: props.theme.space[2],
   [media[0]]: {
-    width: 100 / 2 + '%'
+    width: 100 / 2 + '%',
+    paddingTop: props.theme.space[3],
+    paddingBottom: props.theme.space[3]
   },
   [media[1]]: {
     width: 100 / 4 + '%'
