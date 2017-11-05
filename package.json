@@ -22,7 +22,7 @@
     "react-dom": "^16.0.0",
     "styled-system": "^1.0.8",
     "webpack": "^3.8.1",
-    "webpack-dev-server": "^2.9.3"
+    "webpack-dev-server": "^2.9.4"
   },
   "repository": {
     "type": "git",
