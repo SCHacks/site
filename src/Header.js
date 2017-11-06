@@ -25,10 +25,7 @@ const Header = () => (
     <Text f={3}>
       {data.description}
     </Text>
-    <Text mt={3}>
-      <Button href="https://hackclub.com" children="Learn more" />
-    </Text>
-    <Flex align="center" mt={4}>
+    <Flex align="center" my={4}>
       <Calendar month="Nov." day={6} />
       <Box ml={3}>
         <Text>
@@ -43,6 +40,12 @@ const Header = () => (
         <Text>220N, 3:30–5:00pm</Text>
       </Box>
     </Flex>
+    <Text>
+      <Button
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdmmIRTaMozYLEIIES3KPA9Zyllgf3TeLsoRoSeW3j19oP1fg/viewform?usp=sf_link"
+        children="Attendance"
+      />
+    </Text>
   </Banner>
 )
 
