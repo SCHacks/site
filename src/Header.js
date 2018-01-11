@@ -22,14 +22,12 @@ const Header = () => (
       <Link href="https://hackclub.com">Hack Club</Link>
       <span>State High</span>
     </Title>
-    <Text f={3}>
-      {data.description}
-    </Text>
+    <Text f={3}>{data.description}</Text>
     <Text mt={3}>
       <Button href="https://hackclub.com" children="Learn more" />
     </Text>
     <Flex align="center" mt={4}>
-      <Calendar month="Dec." day={18} />
+      <Calendar month="Jan." day={22} />
       <Box ml={3}>
         <Text>
           <strong>Next meeting</strong>
