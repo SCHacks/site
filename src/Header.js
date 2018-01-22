@@ -38,7 +38,7 @@ const Header = () => (
             children={' — want a reminder?'}
           />
         </Text>
-        <Text>220N, 3:30–5:00pm</Text>
+        <Text>B216, 3:30–5:00pm</Text>
       </Box>
     </Flex>
   </Banner>

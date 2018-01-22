@@ -23,7 +23,7 @@ const Footer = () => (
         <Link href={data.repo} children="Source" />
       </Column>
       <Column>
-        <Link href="https://lachlanjc.glitch.me" children="By @lachlanjc" />
+        <Link href="https://lachlanjc.me" children="By @lachlanjc" />
       </Column>
     </Columns>
     <Bar mb={4} style={{ marginTop: 32 }} />
