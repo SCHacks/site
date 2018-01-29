@@ -4,10 +4,12 @@ import Columns from './Columns'
 import Column from './Column'
 import Bar from './Bar'
 import Logo from './Logo'
-import data from '../data'
+import data from '../data.json'
+
+Box.f = Box.withComponent('footer')
 
 const Footer = () => (
-  <footer>
+  <Box.f pt={3} pb={4}>
     <Bar />
     <Columns>
       <Column>
@@ -23,9 +25,8 @@ const Footer = () => (
         <Link href="https://lachlanjc.me" children="By @lachlanjc" />
       </Column>
     </Columns>
-    <Bar mb={4} style={{ marginTop: 32 }} />
-    <Box py={4} />
-  </footer>
+    <Bar mt={3} />
+  </Box.f>
 )
 
 export default Footer

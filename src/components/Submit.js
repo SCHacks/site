@@ -7,7 +7,7 @@ import Column from './Column'
 const Submit = () => (
   <section id="submit">
     <Bar />
-    <Heading.h2>Submit</Heading.h2>
+    <Heading.h2 f={4}>Submit</Heading.h2>
     <form action="https://formspree.io/ljc14@scasd.org" method="POST">
       <Columns>
         <Column>

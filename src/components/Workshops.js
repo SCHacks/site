@@ -3,12 +3,12 @@ import Bar from './Bar'
 import { Heading, Link } from '@hackclub/design-system'
 import Columns from './Columns'
 import Column from './Column'
-import data from '../data'
+import data from '../data.json'
 
 const Workshops = () => (
   <section id="workshops">
     <Bar />
-    <Heading.h2>Workshops</Heading.h2>
+    <Heading.h2 f={4}>Workshops</Heading.h2>
     <Columns>
       {data.workshops.map((workshop, i) => (
         <Column key={workshop.slug}>
