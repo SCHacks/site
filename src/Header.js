@@ -27,7 +27,7 @@ const Header = () => (
       <Button href="https://hackclub.com" children="Learn more" />
     </Text>
     <Flex align="center" mt={4}>
-      <Calendar month="Jan." day={22} />
+      <Calendar month="Feb." day={5} />
       <Box ml={3}>
         <Text>
           <strong>Next meeting</strong>
