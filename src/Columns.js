@@ -1,6 +1,6 @@
 import React from 'react'
-import Flex from './Flex'
+import { Flex } from '@hackclub/design-system'
 
-const Columns = props => <Flex wrap ml={-3} mr={-3} {...props} />
+const Columns = props => <Flex wrap mx={-3} {...props} />
 
 export default Columns

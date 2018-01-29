@@ -1,19 +1,13 @@
 import React from 'react'
+import { Heading, Label, Input, Button } from '@hackclub/design-system'
 import Bar from './Bar'
-import Heading from './Heading'
 import Columns from './Columns'
 import Column from './Column'
-import Label from './Label'
-import Input from './Input'
-
-import cxs from 'cxs/component'
-import btn from './btn'
-const Button = cxs('input')(props => btn(props))
 
 const Submit = () => (
   <section id="submit">
     <Bar />
-    <Heading>Submit</Heading>
+    <Heading.h2>Submit</Heading.h2>
     <form action="https://formspree.io/ljc14@scasd.org" method="POST">
       <Columns>
         <Column>
@@ -29,7 +23,7 @@ const Submit = () => (
           </Label>
         </Column>
         <Column style={{ alignSelf: 'flex-end' }}>
-          <Button type="submit" />
+          <Button.input type="submit" />
         </Column>
         <Column />
       </Columns>

@@ -1,7 +1,6 @@
 # Hack Club State High
 
-Website for [Hack Club](https://hackclub.com) at State College Area High School.
+Website for [Hack Club](https://hackclub.com) at State College Area High School,
+built with the [Hack Club Design System](https://design.hackclub.com).
 
-___
-
-*MIT license.*
+MIT License

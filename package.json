@@ -1,28 +1,23 @@
 {
   "name": "schacks",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "State High Hack Club",
+  "private": true,
   "scripts": {
-    "build": "node build.js",
-    "start": "webpack-dev-server",
+    "build": "x0 build src/App.js --static --cssLibrary='styled-components'",
+    "start": "x0 dev src/App.js -o",
     "card": "repng src/Card.js -d 1 -w 1024 -h 768 -o . -f card",
     "card-dev": "repng src/Card.js --dev -P 8081"
   },
   "author": "Lachlan Campbell",
   "license": "MIT",
   "devDependencies": {
-    "babel-loader": "^7.1.2",
-    "babel-plugin-module-resolver": "^3.0.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1",
-    "babel-register": "^6.26.0",
-    "cxs": "5.1.0",
+    "@compositor/x0": "^3.1.1",
+    "@hackclub/design-system": "^0.0.1-8",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "styled-system": "^1.1.1",
-    "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.11.1"
+    "styled-components": "^3.1.3",
+    "styled-system": "^1.1.1"
   },
   "repository": {
     "type": "git",

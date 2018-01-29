@@ -1,34 +1,40 @@
 import React from 'react'
-import Banner from './Banner'
 import Logo from './Logo'
-import Title from './Title'
-import Link from './Link'
 import Bar from './Bar'
-import Text from './Text'
-import Flex from './Flex'
-import Box from './Box'
+import {
+  Box,
+  Flex,
+  Text,
+  Heading,
+  Link,
+  Button,
+  Badge,
+  colors
+} from '@hackclub/design-system'
 import Calendar from './Calendar'
 import data from '../data'
-import colors from './colors'
-
-import cxs from 'cxs/component'
-import btn from './btn'
-const Button = cxs('a')(props => btn(props))
 
 const Header = () => (
-  <Banner>
-    <Logo size={72} fill={colors.red} />
-    <Title>
-      <Link href="https://hackclub.com">Hack Club</Link>
-      <span>State High</span>
-    </Title>
+  <Box pt={5}>
+    <Logo size={72} fill={colors.primary} />
+    <Flex align="center" mb={3} wrap>
+      <Link href="https://hackclub.com" mr={3}>
+        <Heading.h1 color="primary" f={6}>
+          Hack Club
+        </Heading.h1>
+      </Link>
+      <Badge>State High</Badge>
+    </Flex>
     <Text f={3}>{data.description}</Text>
-    <Text mt={3}>
-      <Button href="https://hackclub.com" children="Learn more" />
-    </Text>
-    <Flex align="center" mt={4}>
+    <Button
+      bg="accent"
+      my={[3, 4]}
+      href="https://hackclub.com"
+      children="Learn more"
+    />
+    <Flex align="center">
       <Calendar month="Jan." day={22} />
-      <Box ml={3}>
+      <Box align="left" ml={3}>
         <Text>
           <strong>Next meeting</strong>
           <Link
@@ -41,7 +47,7 @@ const Header = () => (
         <Text>B216, 3:30–5:00pm</Text>
       </Box>
     </Flex>
-  </Banner>
+  </Box>
 )
 
 export default Header

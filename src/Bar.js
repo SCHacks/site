@@ -1,16 +1,9 @@
-import cxs from 'cxs/component'
-import Box from './Box'
-import media from './media'
+import { Box } from '@hackclub/design-system'
 
-const Bar = cxs(Box)(props => ({
-  width: 64,
-  height: 8,
-  backgroundColor: props.theme('colors.red'),
-  marginTop: props.theme.space[4],
-  marginBottom: props.theme.space[4],
-  [media[0]]: {
-    marginTop: props.theme.space[5]
-  }
-}))
+const Bar = Box.extend.attrs({ bg: 'accent', my: 4 })`
+  width: 128px;
+  height: 8px;
+  border-radius: 8px;
+`
 
 export default Bar

@@ -1,37 +1,24 @@
 import React from 'react'
-import cxs from 'cxs/component'
-import Flex from './Flex'
-import Box from './Box'
+import { Text, Flex } from '@hackclub/design-system'
 
-const Background = cxs(Flex)(props => ({
-  flexDirection: 'column',
-  flexShrink: '0',
-  textAlign: 'center',
-  width: 5 * 16,
-  height: 5 * 16,
-  borderColor: props.theme('colors.red'),
-  borderStyle: 'solid',
-  borderWidth: 4,
-  borderTopWidth: 2,
-  borderRadius: 12,
-  lineHeight: '1.625'
-}))
-
-const Month = cxs(Box)(props => ({
-  backgroundColor: props.theme('colors.red'),
-  color: props.theme('colors.white'),
-  fontSize: 16,
-  fontWeight: 'bold'
-}))
-
-const Day = cxs(Box)(props => ({
-  fontSize: 32
-}))
+const Background = Flex.extend`
+  flex-direction: column;
+  flex-shrink: 0;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  border-color: ${props => props.theme.colors.primary};
+  border-style: solid;
+  border-width: 4px;
+  border-top-width: 2px;
+  border-radius: 12px;
+  line-height: 1.5;
+`
 
 const Calendar = ({ month, day }) => (
   <Background>
-    <Month children={month} />
-    <Day children={day} />
+    <Text bg="primary" color="white" f={2} bold children={month} />
+    <Text f={5} children={day} />
   </Background>
 )
 
