@@ -1,5 +1,4 @@
 import React from 'react'
-// import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import data from '../data.json'
 
@@ -15,8 +14,8 @@ export default ({ children }) => (
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:image', content: data.card },
         { property: 'og:image', content: data.card },
-        { property: 'og:image:width', content: 512 },
-        { property: 'og:image:height', content: 512 },
+        { property: 'og:image:width', content: 1024 },
+        { property: 'og:image:height', content: 768 },
         { property: 'og:title', content: data.name },
         { name: 'twitter:title', content: data.name },
         { property: 'og:description', content: data.description },
@@ -29,7 +28,3 @@ export default ({ children }) => (
     {children()}
   </ThemeProvider>
 )
-
-// TemplateWrapper.propTypes = {
-//   children: PropTypes.func
-// }

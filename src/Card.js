@@ -1,16 +1,17 @@
 import React from 'react'
-import Flex from './Flex'
-import Logo from './Logo'
-import colors from './colors'
+import data from './data.json'
 
-const Card = () =>
+const Card = () => (
   <svg viewBox="0 0 1024 768" width={1024} height={768}>
-    <rect width={1024} height={768} fill={colors.red} />
+    <rect width={1024} height={768} fill="#e42d42" />
     <g transform="translate(256 128)">
-      <Logo size={512} fill={colors.white} />
+      <svg viewBox="0 0 32 32" width={512} height={512}>
+        <path fill="white" d={data.logo} />
+      </svg>
     </g>
     <style dangerouslySetInnerHTML={{ __html: css }} />
   </svg>
+)
 
 const css = `
 body { margin: 0; }
