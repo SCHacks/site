@@ -6,7 +6,7 @@
   "card": "https://schacks.tech/card.png",
   "meeting": {
     "month": "Feb.",
-    "day": 5
+    "day": 19
   },
   "workshops": [
     { "slug": "personal_website", "name": "Personal website" },
