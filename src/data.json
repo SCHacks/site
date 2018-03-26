@@ -5,8 +5,8 @@
   "repo": "https://github.com/schacks/site",
   "card": "https://schacks.tech/card.png",
   "meeting": {
-    "month": "Mar.",
-    "day": 12
+    "month": "April",
+    "day": 9
   },
   "workshops": [
     { "slug": "personal_website", "name": "Personal website" },
