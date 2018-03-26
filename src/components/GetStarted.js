@@ -12,7 +12,7 @@ const GetStarted = () => (
     <Columns>
       {data.start.map((item, i) => (
         <Column key={item.href}>
-          <Link {...item} />
+          <Link target="_blank" {...item} />
         </Column>
       ))}
     </Columns>

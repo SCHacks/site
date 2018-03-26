@@ -32,7 +32,7 @@ export default () => (
     <Columns>
       {links.map((props, i) => (
         <Column key={i}>
-          <Link {...props} />
+          <Link target="_blank" {...props} />
         </Column>
       ))}
     </Columns>

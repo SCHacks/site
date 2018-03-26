@@ -15,6 +15,7 @@ const Workshops = () => (
           <Link
             href={`https://workshops.hackclub.com/${workshop.slug}`}
             children={`${i + 1}. ${workshop.name}`}
+            target="_blank"
           />
         </Column>
       ))}
