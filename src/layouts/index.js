@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import data from '../data.json'
 
 import ThemeProvider from '../theme'
-import { colors } from '@hackclub/design-system'
+import { Container, colors } from '@hackclub/design-system'
 
 export default ({ children }) => (
   <ThemeProvider>
@@ -25,6 +25,6 @@ export default ({ children }) => (
         { name: 'theme-color', content: colors.primary }
       ]}
     />
-    {children()}
+    <Container px={3}>{children()}</Container>
   </ThemeProvider>
 )

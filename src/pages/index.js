@@ -8,11 +8,11 @@ import Submit from 'components/Submit'
 import Footer from 'components/Footer'
 
 export default () => (
-  <Container maxWidth={52} px={3}>
+  <div>
     <Header />
     <Workshops />
     <GetStarted />
     <Submit />
     <Footer />
-  </Container>
+  </div>
 )

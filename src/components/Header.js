@@ -31,6 +31,7 @@ const Header = () => (
       mt={3}
       mb={4}
       href="https://hackclub.com"
+      target="_blank"
       children="Learn more"
     />
     <Flex align="center">
