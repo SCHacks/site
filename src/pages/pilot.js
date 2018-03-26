@@ -7,12 +7,12 @@ import Column from 'components/Column'
 
 const links = [
   {
-    href: 'https://glitch.com',
-    children: 'Glitch'
+    href: 'https://gist.github.com/lachlanjc/61a659f4de81f4e147a0f61ffbd06667',
+    children: 'Tutorial'
   },
   {
     href: 'https://glitch.com/website-starter-kit',
-    children: 'Glitch tutorials'
+    children: 'Glitch videos'
   },
   {
     href: 'https://hackclub.com/challenge',
