@@ -20,10 +20,9 @@ const links = [
   },
   {
     href: 'https://goo.gl/forms/Mgsh1lswaqrtf0xw2',
-    children: 'Feeback form'
+    children: 'Feedback form'
   }
 ]
-
 export default () => (
   <div>
     <Header />

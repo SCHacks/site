@@ -1,12 +1,12 @@
 {
   "name": "State High Hack Club",
   "description": "A fun, creative place to learn to code with friends.",
-  "url": "https://schacks.tech",
+  "url": "https://club.hackhappyvalley.com",
   "repo": "https://github.com/schacks/site",
-  "card": "https://schacks.tech/card.png",
+  "card": "https://schacks.hackhappyvalley.com/card.png",
   "meeting": {
     "month": "April",
-    "day": 9
+    "day": 23
   },
   "workshops": [
     { "slug": "personal_website", "name": "Personal website" },
