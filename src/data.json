@@ -6,7 +6,7 @@
   "card": "https://schacks.hackhappyvalley.com/card.png",
   "meeting": {
     "month": "April",
-    "day": 23
+    "day": 30
   },
   "workshops": [
     { "slug": "personal_website", "name": "Personal website" },
