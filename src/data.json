@@ -5,8 +5,8 @@
   "repo": "https://github.com/schacks/site",
   "card": "https://schacks.hackhappyvalley.com/card.png",
   "meeting": {
-    "month": "April",
-    "day": 30
+    "month": "June",
+    "day": 4
   },
   "workshops": [
     { "slug": "personal_website", "name": "Personal website" },
