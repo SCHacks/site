@@ -1,5 +1,4 @@
-import React from 'react'
-import { Container } from '@hackclub/design-system'
+import React, { Fragment } from 'react'
 
 import Header from 'components/Header'
 import Workshops from 'components/Workshops'
@@ -8,11 +7,11 @@ import Submit from 'components/Submit'
 import Footer from 'components/Footer'
 
 export default () => (
-  <div>
+  <Fragment>
     <Header />
     <Workshops />
     <GetStarted />
     <Submit />
     <Footer />
-  </div>
+  </Fragment>
 )

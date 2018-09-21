@@ -1,6 +1,5 @@
 import React from 'react'
 import Logo from './Logo'
-import Bar from './Bar'
 import {
   Box,
   Flex,
@@ -8,8 +7,7 @@ import {
   Heading,
   Link,
   Button,
-  Badge,
-  colors
+  Badge
 } from '@hackclub/design-system'
 import Calendar from './Calendar'
 import data from '../data.json'
@@ -46,7 +44,7 @@ const Header = () => (
             children={' — want a reminder?'}
           />
         </Text>
-        <Text>B216, 3:30–5:00pm</Text>
+        <Text>C212, 4:00–5:30pm</Text>
       </Box>
     </Flex>
   </Box>

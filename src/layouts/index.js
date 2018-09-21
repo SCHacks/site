@@ -2,13 +2,12 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import data from '../data.json'
 
-import ThemeProvider from '../theme'
-import { Container, colors } from '@hackclub/design-system'
+import { ThemeProvider, Container, colors } from '@hackclub/design-system'
 
 export default ({ children }) => (
   <ThemeProvider>
     <Helmet
-      title="SCHacks"
+      title="State High Hack Club"
       meta={[
         { name: 'description', content: data.description },
         { name: 'twitter:card', content: 'summary_large_image' },
