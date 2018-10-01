@@ -18,6 +18,7 @@ const Body = styled(Container).attrs({ pt: 4, px: 3, pb: 5, width: 1 })`
 
   ${theme.mediaQueries.md} {
     grid-gap: ${theme.space[5]}px;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas: 'workshops start'
                          'workshops submit';
   }
