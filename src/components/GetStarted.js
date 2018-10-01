@@ -1,22 +1,23 @@
 import React from 'react'
-import { Heading, Link } from '@hackclub/design-system'
-import Bar from './Bar'
-import Columns from './Columns'
-import Column from './Column'
-import data from '../data.json'
+import { Heading } from '@hackclub/design-system'
+import Sheet from './Sheet'
+import List from './List'
+import Underlined from './Underlined'
+import data from 'data'
 
 const GetStarted = () => (
-  <section id="start">
-    <Bar />
-    <Heading.h2 f={4}>Getting Started</Heading.h2>
-    <Columns>
+  <Sheet id="start">
+    <Heading.h2 fontSize={5} mb={3}>
+      New here?
+    </Heading.h2>
+    <List>
       {data.start.map((item, i) => (
-        <Column key={item.href}>
-          <Link target="_blank" {...item} />
-        </Column>
+        <li key={item.href}>
+          <Underlined target="_blank" {...item} />
+        </li>
       ))}
-    </Columns>
-  </section>
+    </List>
+  </Sheet>
 )
 
 export default GetStarted

@@ -1,23 +1,22 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import { Container, Heading, Text, LargeButton } from '@hackclub/design-system'
-import Logo from 'components/Logo'
+import Layout from 'components/Layout'
 
 LargeButton.link = LargeButton.withComponent(Link)
 
 export default () => (
-  <Container px={3} py={[4, 5]} align="center">
-    <Link to="/">
-      <Logo color="primary" size={128} mb={3} mx="auto" />
-      <Heading.h1 color="primary" f={[4, 5, 6]}>
+  <Layout>
+    <Container px={3} py={[5, 6]} align="center">
+      <Heading.h1 color="primary" fontSize={[128, 256]}>
         404!
       </Heading.h1>
-    </Link>
-    <Text color="black" f={3}>
-      Sorry, that page isn’t here.
-    </Text>
-    <LargeButton.link to="/" bg="accent" mt={4}>
-      🏡 Go Home
-    </LargeButton.link>
-  </Container>
+      <Text color="white" fontSize={3}>
+        Sorry, that page isn’t here.
+      </Text>
+      <LargeButton.link bg="cool" to="/" mt={4}>
+        🏡 Go Home
+      </LargeButton.link>
+    </Container>
+  </Layout>
 )

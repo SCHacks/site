@@ -1,24 +1,23 @@
 {
   "name": "@schacks/site",
   "description": "State High Hack Club site",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "author": "Lachlan Campbell",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop",
-    "fmt": "prettier --no-semi --single-quote --write \"src/**/*.js\"",
-    "card": "repng src/Card.js -d 1 -w 1024 -h 768 -o static -f card",
-    "card-dev": "repng src/Card.js --dev -P 8081"
+    "fmt": "prettier --no-semi --single-quote --write \"src/**/*.js\""
   },
   "dependencies": {
     "@hackclub/design-system": "^0.0.1-13",
-    "gatsby": "^1.9.250",
-    "gatsby-link": "^1.6.40",
-    "gatsby-plugin-react-helmet": "^2.0.10",
-    "gatsby-plugin-react-next": "^1.0.11",
-    "gatsby-plugin-resolve-src": "^1.1.3",
-    "gatsby-plugin-styled-components": "^2.0.11",
+    "babel-plugin-styled-components": "^1.8.0",
+    "gatsby": "^2.0.13",
+    "gatsby-link": "^2.0.3",
+    "gatsby-plugin-react-helmet": "^3.0.0",
+    "gatsby-plugin-root-import": "^2.0.4",
+    "gatsby-plugin-styled-components": "^3.0.0",
+    "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-helmet": "^5.2.0",
@@ -26,7 +25,6 @@
     "styled-components": "^3.4.9"
   },
   "devDependencies": {
-    "prettier": "^1.12.0"
-  },
-  "keywords": ["gatsby"]
+    "prettier": "^1.14.3"
+  }
 }

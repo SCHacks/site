@@ -1,32 +1,33 @@
 import React from 'react'
-import { Box, Text, Link, colors } from '@hackclub/design-system'
-import Columns from './Columns'
-import Column from './Column'
-import Bar from './Bar'
-import Logo from './Logo'
-import data from '../data.json'
+import { Flex, Box, Heading, Icon, Link as A } from '@hackclub/design-system'
+import { urls } from 'data'
 
-Box.f = Box.withComponent('footer')
+const Service = ({ href, service, ...props }) => (
+  <A
+    target="_blank"
+    rel="noopener"
+    href={href}
+    mx={3}
+    color="muted"
+    aria-label={service}
+    children={<Icon glyph={service} size={32} />}
+    {...props}
+  />
+)
 
-const Footer = () => (
-  <Box.f pt={3} pb={4}>
-    <Bar />
-    <Columns>
-      <Column>
-        <Text>State High hacks</Text>
-      </Column>
-      <Column>
-        <Text>MIT license</Text>
-      </Column>
-      <Column>
-        <Link href={data.repo} children="Source" />
-      </Column>
-      <Column>
-        <Link href="https://lachlanjc.me" children="By @lachlanjc" />
-      </Column>
-    </Columns>
-    <Bar mt={3} />
-  </Box.f>
+const Footer = ({ children }) => (
+  <Box.footer p={[4, 5]} bg="steel" color="muted" align="center">
+    {children}
+    <Heading.h3 f={2} mb={3} align="center" caps>
+      Join the Club
+    </Heading.h3>
+    <Flex justify="center" align="center" wrap>
+      <Service href={urls.slack} service="slack" />
+      <Service href={urls.instagram} service="instagram" />
+      <Service href={urls.github} service="github" />
+      <Service href={urls.email} service="email" />
+    </Flex>
+  </Box.footer>
 )
 
 export default Footer

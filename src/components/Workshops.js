@@ -1,26 +1,27 @@
 import React from 'react'
-import Bar from './Bar'
-import { Heading, Link } from '@hackclub/design-system'
-import Columns from './Columns'
-import Column from './Column'
-import data from '../data.json'
+import { Heading } from '@hackclub/design-system'
+import Sheet from './Sheet'
+import List from './List'
+import Underlined from './Underlined'
+import data from 'data'
 
 const Workshops = () => (
-  <section id="workshops">
-    <Bar />
-    <Heading.h2 f={4}>Workshops</Heading.h2>
-    <Columns>
+  <Sheet id="workshops">
+    <Heading.h2 fontSize={5} mb={3}>
+      Workshops
+    </Heading.h2>
+    <List>
       {data.workshops.map((workshop, i) => (
-        <Column key={workshop.slug}>
-          <Link
-            href={`https://workshops.hackclub.com/${workshop.slug}`}
-            children={`${i + 1}. ${workshop.name}`}
+        <li key={workshop.slug}>
+          <Underlined
+            href={`https://hackclub.com/workshops/${workshop.slug}`}
+            children={workshop.name}
             target="_blank"
           />
-        </Column>
+        </li>
       ))}
-    </Columns>
-  </section>
+    </List>
+  </Sheet>
 )
 
 export default Workshops

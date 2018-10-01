@@ -5,16 +5,16 @@ import theme from './config'
 injectGlobal`
   body {
     font-family: ${theme.font};
-    background-color: ${theme.colors.snow};
-    color: ${theme.colors.black};
+    background-color: ${theme.colors.black};
+    color: ${theme.colors.white};
     line-height: 1.6;
   }
   * {
     box-sizing: border-box;
   }
-  a {
-    box-shadow: none;
-    text-decoration: none;
+  h1,
+  h2 {
+    font-weight: 900;
   }
   ul, ol {
     margin: 0;
