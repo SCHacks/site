@@ -23,7 +23,7 @@ const Footer = ({ children }) => (
     </Heading.h3>
     <Flex justify="center" align="center" wrap>
       <Service href={urls.slack} service="slack" />
-      <Service href={urls.instagram} service="instagram" />
+      {/* <Service href={urls.instagram} service="instagram" /> */}
       <Service href={urls.github} service="github" />
       <Service href={urls.email} service="email" />
     </Flex>
