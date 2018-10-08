@@ -10,7 +10,7 @@ const Workshops = () => (
     <Heading.h2 fontSize={5} mb={2}>
       Workshops
     </Heading.h2>
-    <Text fontSize={3} mb={[3, 4]}>
+    <Text fontSize={[2, 3]} mb={[3, 4]}>
       This is a collection of coding tutorials from Hack Club. Go at your own
       pace, & submit your link below when you’re finished!
     </Text>
