@@ -27,14 +27,17 @@
     { "slug": "dodge", "name": "Dodge" },
     { "slug": "platformer", "name": "Platformer" },
     { "slug": "collaborative_sketch", "name": "Collaborative sketch" },
-    { "slug": "dashboard", "name": "Dashboard" },
-    { "slug": "rails_notes", "name": "Rails Notes" }
+    { "slug": "dashboard", "name": "Dashboard" }
   ],
   "start": [
     { "href": "http://hackclub.com/slack_invite", "children": "Slack" },
     {
       "href": "https://github.com/hackclub/hackclub/blob/master/CONDUCT.md",
       "children": "Code of Conduct"
+    },
+    {
+      "href": "https://schacks-music.glitch.me",
+      "children": "Music"
     },
     {
       "href": "https://repl.it",
