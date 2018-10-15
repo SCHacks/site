@@ -6,7 +6,7 @@
   "card": "https://statehigh.hackclub.com/card.png",
   "meeting": {
     "month": "October",
-    "day": 15
+    "day": 22
   },
   "urls": {
     "slack": "https://hackclub.com/slack_invite",
@@ -41,6 +41,10 @@
     {
       "href": "https://repl.it",
       "children": "Repl.it"
+    },
+    {
+      "href": "https://grants.stutech.org",
+      "children": "StuTech Grants"
     }
   ]
 }
