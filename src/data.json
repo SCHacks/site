@@ -5,8 +5,8 @@
   "repo": "https://github.com/schacks/site",
   "card": "https://statehigh.hackclub.com/card.png",
   "meeting": {
-    "month": "October",
-    "day": 29
+    "month": "November",
+    "day": 19
   },
   "urls": {
     "slack": "https://hackclub.com/slack_invite",
@@ -26,7 +26,7 @@
     { "slug": "dodge", "name": "Dodge" },
     { "slug": "platformer", "name": "Platformer" },
     { "slug": "collaborative_sketch", "name": "Collaborative sketch" },
-    { "slug": "dashboard", "name": "Dashboard" }
+    { "slug": "dashboard", "name": "Dashboard" },
   ],
   "start": [
     { "href": "http://hackclub.com/slack_invite", "children": "Slack" },
@@ -45,6 +45,10 @@
     {
       "href": "https://repl.it",
       "children": "Repl.it"
+    },
+    {
+      "href": "https://github.com/hackclub/hackclub/blob/add-nextjs-starter/workshops/nextjs_starter/README.md",
+      "children": "Next.js starter workshop"
     }
   ]
 }
