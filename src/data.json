@@ -28,7 +28,7 @@
     { "slug": "dashboard", "name": "Dashboard" },
     { "slug": "nextjs_starter", "name": "Next.js starter" }
   ],
-  "start": [
+  "links": [
     { "href": "http://hackclub.com/slack_invite", "children": "Slack" },
     {
       "href": "https://github.com/hackclub/hackclub/blob/master/CONDUCT.md",
@@ -39,12 +39,8 @@
       "children": "Music"
     },
     {
-      "href": "https://glitch.com",
-      "children": "Glitch"
-    },
-    {
-      "href": "https://repl.it",
-      "children": "Repl.it"
+      "href": "https://goo.gl/forms/gLyukOFigQl0DtZk2",
+      "children": "Secret Santa"
     }
   ]
 }

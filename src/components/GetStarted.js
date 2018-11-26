@@ -8,10 +8,10 @@ import data from 'data'
 const GetStarted = () => (
   <Sheet id="start">
     <Heading.h2 fontSize={5} mb={3}>
-      New here?
+      Quick links
     </Heading.h2>
     <List>
-      {data.start.map((item, i) => (
+      {data.links.map((item, i) => (
         <li key={item.href}>
           <Underlined target="_blank" {...item} />
         </li>
