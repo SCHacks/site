@@ -6,7 +6,7 @@
   "card": "https://statehigh.hackclub.com/card.png",
   "meeting": {
     "month": "Dec",
-    "day": 3
+    "day": 10
   },
   "urls": {
     "slack": "https://hackclub.com/slack_invite",
@@ -39,8 +39,16 @@
       "children": "Music"
     },
     {
+      "href": "https://hackpenn.com",
+      "children": "Hack Pennsylvania"
+    },
+    {
       "href": "https://goo.gl/forms/gLyukOFigQl0DtZk2",
       "children": "Secret Santa"
+    },
+    {
+      "href": "https://github.com/hackclub/hackclub/blob/nextjs_dashboard/workshops/nextjs_dashboard/README.md",
+      "children": "Next.js dashboard workshop"
     }
   ]
 }
