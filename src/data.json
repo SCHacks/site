@@ -5,8 +5,8 @@
   "repo": "https://github.com/schacks/site",
   "card": "https://statehigh.hackclub.com/card.png",
   "meeting": {
-    "month": "Dec",
-    "day": 10
+    "month": "Jan",
+    "day": 7
   },
   "urls": {
     "slack": "https://hackclub.com/slack_invite",
@@ -26,7 +26,8 @@
     { "slug": "platformer", "name": "Platformer" },
     { "slug": "collaborative_sketch", "name": "Collaborative sketch" },
     { "slug": "dashboard", "name": "Dashboard" },
-    { "slug": "nextjs_starter", "name": "Next.js starter" }
+    { "slug": "nextjs_starter", "name": "Next.js starter" },
+    { "slug": "nextjs_dashboard", "name": "Next.js dashboard" },
   ],
   "links": [
     { "href": "http://hackclub.com/slack_invite", "children": "Slack" },
@@ -41,14 +42,6 @@
     {
       "href": "https://hackpenn.com",
       "children": "Hack Pennsylvania"
-    },
-    {
-      "href": "https://goo.gl/forms/gLyukOFigQl0DtZk2",
-      "children": "Secret Santa"
-    },
-    {
-      "href": "https://github.com/hackclub/hackclub/blob/nextjs_dashboard/workshops/nextjs_dashboard/README.md",
-      "children": "Next.js dashboard workshop"
     }
   ]
 }
