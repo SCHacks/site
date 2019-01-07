@@ -10,6 +10,7 @@
     "fmt": "prettier --no-semi --single-quote --write \"src/**/*.js\""
   },
   "dependencies": {
+    "@hackclub/banner": "^1.0.1",
     "@hackclub/design-system": "^0.0.1-13",
     "babel-plugin-styled-components": "^1.8.0",
     "gatsby": "^2.0.19",

@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import Banner from '@hackclub/banner'
 import ThemeProvider from 'theme'
 import theme from 'theme/config'
 import data from 'data'
@@ -35,6 +36,7 @@ export default ({ children }) => (
         rel="stylesheet"
       />
     </Helmet>
+    <Banner style={{ width: '200px' }} />
     {children}
   </ThemeProvider>
 )
