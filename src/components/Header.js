@@ -1,15 +1,11 @@
 import React from 'react'
-import styled from 'styled-components'
 import {
   Box,
   Flex,
   Text,
-  Heading,
   Image,
   Container,
-  Link as A,
-  Link,
-  Badge
+  Link
 } from '@hackclub/design-system'
 import Underlined from './Underlined'
 import Calendar from './Calendar'
@@ -31,7 +27,8 @@ const Header = () => (
         of the international non-profit{' '}
         <Underlined href="https://hackclub.com" color="white">
           Hack Club
-        </Underlined>. We meet weekly on Mondays.
+        </Underlined>
+        . We meet weekly on Mondays.
       </Text>
     </Container>
     <Flex align="center" justify="center">

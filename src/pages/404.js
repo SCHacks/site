@@ -15,7 +15,10 @@ export default () => (
         Sorry, that page isn’t here.
       </Text>
       <LargeButton.link bg="cool" to="/" mt={4}>
-        🏡 Go Home
+        <span role="img" aria-label="home emoji">
+          🏡
+        </span>{' '}
+        Go Home
       </LargeButton.link>
     </Container>
   </Layout>

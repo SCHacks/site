@@ -17,10 +17,11 @@ const Body = styled(Container).attrs({ pt: 4, px: 3, pb: 5, width: 1 })`
   grid-template-areas: 'start' 'workshops' 'submit';
 
   ${theme.mediaQueries.md} {
-    grid-gap: ${theme.space[5]}px;
+    grid-gap: ${theme.space[4]}px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 'workshops start'
-                         'workshops submit';
+    grid-template-areas:
+      'workshops start'
+      'workshops submit';
   }
 
   > div {

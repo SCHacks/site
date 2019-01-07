@@ -30,18 +30,18 @@
     { "slug": "nextjs_dashboard", "name": "Next.js dashboard" }
   ],
   "links": [
+    {
+      "href": "https://hackpenn.com",
+      "children": "Hack Pennsylvania"
+    },
     { "href": "http://hackclub.com/slack_invite", "children": "Slack" },
     {
-      "href": "https://github.com/hackclub/hackclub/blob/master/CONDUCT.md",
+      "href": "https://hackclub.com/conduct",
       "children": "Code of Conduct"
     },
     {
       "href": "https://schacks-music.glitch.me",
       "children": "Music"
-    },
-    {
-      "href": "https://hackpenn.com",
-      "children": "Hack Pennsylvania"
     }
   ]
 }
