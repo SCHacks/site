@@ -12,7 +12,7 @@
     "slack": "https://hackclub.com/slack_invite",
     "instagram": "https://instagram.com/schacks",
     "github": "https://github.com/schacks",
-    "email": "mailto:ljc14@scasd.org"
+    "email": "mailto:jxl55@scasd.org"
   },
   "leaders": [
     { "name": "Lachlan Campbell", "pronouns": "they/them", "email": "ljc14" },
@@ -27,7 +27,7 @@
     { "slug": "collaborative_sketch", "name": "Collaborative sketch" },
     { "slug": "dashboard", "name": "Dashboard" },
     { "slug": "nextjs_starter", "name": "Next.js starter" },
-    { "slug": "nextjs_dashboard", "name": "Next.js dashboard" },
+    { "slug": "nextjs_dashboard", "name": "Next.js dashboard" }
   ],
   "links": [
     { "href": "http://hackclub.com/slack_invite", "children": "Slack" },
