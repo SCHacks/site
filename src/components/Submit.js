@@ -30,7 +30,7 @@ const Submit = () => (
     <Heading.h2 fontSize={5} mb={3}>
       Submit
     </Heading.h2>
-    <Base action="https://formspree.io/ljc14@scasd.org" method="POST">
+    <Base action="https://formspree.io/jxl55@scasd.org" method="POST">
       <Field
         label="Email"
         type="email"
