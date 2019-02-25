@@ -31,10 +31,6 @@
     { "slug": "tree_machine", "name": "Tree Machine"}
   ],
   "links": [
-    {
-      "href": "https://hackpenn.com",
-      "children": "Hack Pennsylvania"
-    },
     { "href": "http://hackclub.com/slack_invite", "children": "Slack" },
     {
       "href": "https://hackclub.com/conduct",
