@@ -28,7 +28,7 @@
     { "slug": "dashboard", "name": "Dashboard" },
     { "slug": "nextjs_starter", "name": "Next.js starter" },
     { "slug": "nextjs_dashboard", "name": "Next.js dashboard" }
-    { "slug": "tree machine", "name": "Tree Machine" }
+    { "slug": "tree_machine", "name": "Tree Machine"},
   ],
   "links": [
     {
