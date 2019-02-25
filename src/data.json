@@ -27,7 +27,7 @@
     { "slug": "collaborative_sketch", "name": "Collaborative sketch" },
     { "slug": "dashboard", "name": "Dashboard" },
     { "slug": "nextjs_starter", "name": "Next.js starter" },
-    { "slug": "nextjs_dashboard", "name": "Next.js dashboard" }
+    { "slug": "nextjs_dashboard", "name": "Next.js dashboard" },
     { "slug": "tree_machine", "name": "Tree Machine"},
   ],
   "links": [
