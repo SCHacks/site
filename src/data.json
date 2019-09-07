@@ -21,14 +21,9 @@
   ],
   "workshops": [
     { "slug": "personal_website", "name": "Personal website" },
-    { "slug": "geometric_pattern", "name": "Geometric pattern" },
     { "slug": "dodge", "name": "Dodge" },
-    { "slug": "platformer", "name": "Platformer" },
-    { "slug": "collaborative_sketch", "name": "Collaborative sketch" },
-    { "slug": "dashboard", "name": "Dashboard" },
-    { "slug": "nextjs_starter", "name": "Next.js starter" },
-    { "slug": "nextjs_dashboard", "name": "Next.js dashboard" },
-    { "slug": "tree_machine", "name": "Tree Machine"}
+    { "slug": "synth", "name": "Synth"} 
+
   ],
   "links": [
     { "href": "http://hackclub.com/slack_invite", "children": "Slack" },
