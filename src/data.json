@@ -15,9 +15,10 @@
     "email": "mailto:jxl55@scasd.org"
   },
   "leaders": [
-    { "name": "Serena Duncan", "pronouns": "she/her", "email": "smd21" },
     { "name": "Joy Liu", "pronouns": "she/her", "email": "jxl55" },
-    { "name": "Caroline Shen", "pronouns": "she/her", "email": "cas52" }
+    { "name": "Caroline Shen", "pronouns": "she/her", "email": "cas52" },
+    { "name": "Serena Duncan", "pronouns": "she/her", "email": "smd21" }
+
   ],
   "workshops": [
     { "slug": "personal_website", "name": "Personal Website" },
