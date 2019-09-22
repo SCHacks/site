@@ -26,9 +26,7 @@
     { "slug": "synth", "name": "Synth"},
     { "slug": "platformer", "name": "Platformer"},
     { "slug": "geometric_pattern", "name": "Geometric Pattern" },
-    { "slug": "tree_machine", "name": "Tree Machine" },
-    { "slug": "nextjs_starter", "name": "Intro to Next.js" },
-    { "slug": "nextjs_dashboard", "name": "Dashboard with Next.js" }
+    { "slug": "tree_machine", "name": "Tree Machine" }
 
 
   ],
