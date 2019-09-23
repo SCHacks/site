@@ -22,6 +22,7 @@
   ],
   "workshops": [
     { "slug": "personal_website", "name": "Personal Website" },
+    { "slug": "find_bigfoot", "name": "Find Bigfoot" },
     { "slug": "dodge", "name": "Dodge" },
     { "slug": "synth", "name": "Synth"},
     { "slug": "platformer", "name": "Platformer"},
