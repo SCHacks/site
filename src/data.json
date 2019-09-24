@@ -1,12 +1,12 @@
 {
   "name": "State High Hack Club",
-  "description": "A club for making + coding at State College Area High School, a chapter of the international Hack Club organization. We meet weekly on Mondays, room C212.",
+  "description": "A club for making + coding at State College Area High School, a chapter of the international Hack Club organization. We meet weekly on Mondays, room B116.",
   "url": "https://statehigh.hackclub.com",
   "repo": "https://github.com/schacks/site",
   "card": "https://statehigh.hackclub.com/card.png",
   "meeting": {
     "month": "Sept",
-    "day": 23
+    "day": 30
   },
   "urls": {
     "slack": "https://hackclub.com/slack_invite",
