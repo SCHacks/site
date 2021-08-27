@@ -5,14 +5,14 @@
   "repo": "https://github.com/schacks/site",
   "card": "https://statehigh.hackclub.com/card.png",
   "meeting": {
-    "month": "Feb",
-    "day": 24
+    "month": "Sept",
+    "day": 20
   },
   "urls": {
     "slack": "https://hackclub.com/slack_invite",
     "instagram": "https://instagram.com/schacks",
     "github": "https://github.com/schacks",
-    "email": "mailto:jxl55@scasd.org"
+    "email": "mailto:smd21@scasd.org"
   },
   "leaders": [
     { "name": "Joy Liu", "pronouns": "she/her", "email": "jxl55" },
