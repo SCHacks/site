@@ -1,24 +1,21 @@
 {
   "name": "State High Hack Club",
-  "description": "A club for making + coding at State College Area High School, a chapter of the international Hack Club organization. We meet weekly on Mondays, room B116.",
+  "description": "A club for making + coding at State College Area High School, a chapter of the international Hack Club organization. We meet weekly on Mondays, room C112.",
   "url": "https://statehigh.hackclub.com",
   "repo": "https://github.com/schacks/site",
   "card": "https://statehigh.hackclub.com/card.png",
   "meeting": {
     "month": "Sept",
-    "day": 20
+    "day": 19
   },
   "urls": {
     "slack": "https://hackclub.com/slack_invite",
-    "instagram": "https://instagram.com/schacks",
     "github": "https://github.com/schacks",
-    "email": "mailto:smd21@scasd.org"
+    "email": "mailto:aga18@scasd.org"
   },
   "leaders": [
-    { "name": "Joy Liu", "pronouns": "she/her", "email": "jxl55" },
-    { "name": "Caroline Shen", "pronouns": "she/her", "email": "cas52" },
-    { "name": "Serena Duncan", "pronouns": "she/her", "email": "smd21" }
-
+    { "name": "Angie Abraham", "pronouns": "she/her", "email": "aga18" },
+    { "name": "Jerry Zhang", "pronouns": "he/him", "email": "jxz21" }
   ],
   "workshops": [
     { "slug": "personal_website", "name": "Personal Website" },
