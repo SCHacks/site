@@ -18,7 +18,7 @@ const Base = styled(Container).attrs({ maxWidth: 72 })`
   width: 100%;
 
   ${theme.mediaQueries.md} {
-    grid-template-columns: repeat(data.leaders.length, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 `
 const LeaderName = styled(Text)`
