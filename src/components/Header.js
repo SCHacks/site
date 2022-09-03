@@ -37,7 +37,7 @@ const Header = () => (
         <Text fontSize={3} bold>
           Next meeting
         </Text>
-        <Text fontSize={1}>C112, 4:00–5:15pm</Text>
+        <Text fontSize={1}>C112, 4:00–5:00pm</Text>
         <Text mt={2}>
           <Link
             href="http://rmd.at/schacks"
