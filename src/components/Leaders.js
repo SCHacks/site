@@ -12,8 +12,6 @@ import {
 import theme from 'theme/config'
 import data from 'data'
 
-console.log(data.leaders.length);
-
 const Base = styled(Container).attrs({ maxWidth: 72 })`
   display: grid;
   grid-gap: ${theme.space[3]}px;
@@ -21,7 +19,7 @@ const Base = styled(Container).attrs({ maxWidth: 72 })`
   width: 100%;
 
   ${theme.mediaQueries.md} {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(${data.leaders.length}, minmax(0, 1fr));
   }
 `
 const LeaderName = styled(Text)`
