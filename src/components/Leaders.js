@@ -12,9 +12,12 @@ import {
 import theme from 'theme/config'
 import data from 'data'
 
+console.log(data.leaders.length);
+
 const Base = styled(Container).attrs({ maxWidth: 72 })`
   display: grid;
   grid-gap: ${theme.space[3]}px;
+  justify-content: center;
   width: 100%;
 
   ${theme.mediaQueries.md} {
