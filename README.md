@@ -1,6 +1,6 @@
 # Hack Club State High
 
-Website for [Hack Club](https://hackclub.com) at State College Area High School,
-built with the [Hack Club Design System](https://design.hackclub.com).
+Website for testing purposes: https://schacksclone.netlify.app 
+Main repo at https://github.com/SCHacks/site.
 
 MIT License
