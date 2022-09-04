@@ -15,7 +15,8 @@
   },
   "leaders": [
     { "name": "Angie Abraham", "pronouns": "she/her", "email": "aga18" },
-    { "name": "Jerry Zhang", "pronouns": "he/him", "email": "jxz21" }
+    { "name": "Jerry Zhang", "pronouns": "he/him", "email": "jxz21" },
+    { "name": "a", "pronouns": "it", "email": "abcdef" }
   ],
   "workshops": [
     { "slug": "personal_website", "name": "Personal Website" },
