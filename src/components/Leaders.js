@@ -14,9 +14,7 @@ import data from 'data'
 
 const Base = styled(Container).attrs({ maxWidth: 72 })`
   display: grid;
-  grid-auto-flow: column;
   grid-gap: ${theme.space[3]}px;
-  justify-content: center;
   width: 100%;
 
   ${theme.mediaQueries.md} {
@@ -35,7 +33,7 @@ const EmailButton = styled(Button)`
 `
 const username = a => a.split(' ')[0].toLowerCase()
 const Leader = ({ name, pronouns, email, ...props }) => (
-  <Flex align="center">
+  <Flex align="center" margin="auto">
     <Avatar src={`/team/${username(name)}.jpg`} alt={name} size={128} mr={3} />
     <Box align="center">
       <LeaderName f={4} children={name} />
