@@ -37,7 +37,7 @@ const username = a => a.split(' ')[0].toLowerCase()
 const Leader = ({ name, pronouns, email, ...props }) => (
   <Flex align="center">
     <Avatar src={`/team/${username(name)}.jpg`} alt={name} size={128} mr={3} />
-    <Box align="left">
+    <Box align="center">
       <LeaderName f={4} children={name} />
       <Text color="muted" f={2} mb={2} children={pronouns} />
       <EmailButton href={`mailto:${email}@scasd.org`} bg="cool" f={2} mt={2}>
