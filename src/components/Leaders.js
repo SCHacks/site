@@ -18,7 +18,7 @@ const Base = styled(Container).attrs({ maxWidth: 72 })`
   width: 100%;
 
   ${theme.mediaQueries.md} {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(${data.leaders.length}, minmax(0, 1fr));
   }
 `
 const LeaderName = styled(Text)`
@@ -33,7 +33,7 @@ const EmailButton = styled(Button)`
 `
 const username = a => a.split(' ')[0].toLowerCase()
 const Leader = ({ name, pronouns, email, ...props }) => (
-  <Flex align="center">
+  <Flex align="center" style={{margin: "auto"}} >
     <Avatar src={`/team/${username(name)}.jpg`} alt={name} size={128} mr={3} />
     <Box align="center">
       <LeaderName f={4} children={name} />
