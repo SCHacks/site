@@ -14,6 +14,7 @@ import data from 'data'
 
 const Base = styled(Container).attrs({ maxWidth: 72 })`
   display: grid;
+  grid-auto-flow: column;
   grid-gap: ${theme.space[3]}px;
   justify-content: center;
   width: 100%;
