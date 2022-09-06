@@ -40,7 +40,7 @@ const Header = () => (
         <Text fontSize={1}>C112, 4:00–5:00pm</Text>
         <Text mt={2}>
           <Link
-            href="http://rmd.at/schacks"
+            href="http://rmd.at/schackclub"
             target="_blank"
             fontSize={1}
             bold
