@@ -5,7 +5,7 @@ import List from './List'
 import Underlined from './Underlined'
 import data from 'data'
 
-const Announcements = () => {
+const Announcements = () => (
   <Sheet id="announcements">
     <Heading.h2 fontSize={5} mb={2}>
       Announcements
@@ -22,6 +22,6 @@ const Announcements = () => {
       })}
     </List>
   </Sheet>
-}
+)
 
 export default Announcements
