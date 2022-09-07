@@ -43,5 +43,6 @@
   ],
   "announcements": [
     { "slug": "interest_form", "message": "Fill out the Interest Form", "link": "https://forms.gle/XpHtfzZVQprCfjGU6" },
+    { "slug": "google", "message": "Google", "link": "https://www.google.com" }
   ]
 }
