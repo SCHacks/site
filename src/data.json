@@ -40,5 +40,8 @@
       "href": "https://schacks-music.glitch.me",
       "children": "Music"
     }
+  ],
+  "announcements": [
+    { "slug": "interest_form", "message": "Fill out the Interest Form", "link": "https://forms.gle/XpHtfzZVQprCfjGU6" },
   ]
 }
