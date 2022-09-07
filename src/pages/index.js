@@ -5,6 +5,7 @@ import theme from 'theme/config'
 
 import Layout from 'components/Layout'
 import Header from 'components/Header'
+import Announcements from 'components/Announcements'
 import Leadership from 'components/Leadership'
 import Workshops from 'components/Workshops'
 import GetStarted from 'components/GetStarted'
@@ -40,6 +41,7 @@ const Body = styled(Container).attrs({ pt: 4, px: 3, pb: 5, width: 1 })`
 export default () => (
   <Layout>
     <Header />
+    <Announcements />
     <Heading.h2 color="white" align="center" fontSize={[5, 6]} mb={2} px={3}>
       Resources
     </Heading.h2>
