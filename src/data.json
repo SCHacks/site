@@ -44,5 +44,9 @@
       "href": "https://forms.gle/dNDAbVRrAhBnFP6s5",
       "children": "Interest Form"
     }
+  ],
+  "announcements": [
+    { "slug": "interest_form", "message": "Fill out the {Interest Form|https://forms.gle/XpHtfzZVQprCfjGU6}" },
+    { "slug": "google", "message": "Come to the first meeting!" }
   ]
 }
