@@ -37,7 +37,7 @@ const Submit = () => (
         name="email"
         placeholder="abc@scasd.org"
       />
-      <Field label="Link" type="url" name="url" placeholder="abc.xyz" />
+      <Field label="Link" type="url" name="url" placeholder="https://abc.xyz" />
       <SubmitButton type="submit" mt={3} />
     </Base>
   </Sheet>
