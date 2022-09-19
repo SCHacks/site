@@ -41,7 +41,11 @@
       "children": "Replit"
     },
     {
-      "href": "tinyurl.com/hcwebsubmission",
+      "href": "https://tinyurl.com/hc-attendance",
+      "children": "Attendance Form"
+    },
+    {
+      "href": "https://tinyurl.com/hcwebsubmission",
       "children": "Submission Form"
     }
   ],
